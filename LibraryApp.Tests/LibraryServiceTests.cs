@@ -112,7 +112,8 @@ namespace LibraryApp.Tests
             service.AddUser(user);
             var users = service.GetUsers();
 
-            Assert.IsTrue(users.Any(u => u.Name == "Test User"));
+           //failing one below Assert.IsTrue(users.Any(u => u.Name == "Test User"));
+            Assert.IsTrue(false)
         }
 
 
